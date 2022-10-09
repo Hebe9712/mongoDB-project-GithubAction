@@ -1,4 +1,4 @@
 FROM openjdk:8
-EXPOSE: 8080
-COPY: target/SpringBoot_MongoDB.jar SpringBoot_MongoDB.jar
-ENTRYPOINT: ["java", "-jar", "/SpringBoot_MongoDB.jar"]
+EXPOSE 8080
+COPY target/SpringBoot_MongoDB.jar SpringBoot_MongoDB.jar
+ENTRYPOINT ["java", "-jar", "/SpringBoot_MongoDB.jar"]
